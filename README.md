@@ -1,4 +1,4 @@
-# 🛒 Walmart Sales: Advanced Statistical Analysis & Hypothesis Testing
+# Walmart Sales: Advanced Statistical Analysis & Hypothesis Testing
 
 ---
 
@@ -10,18 +10,18 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project performs a comprehensive statistical evaluation of Walmart's weekly sales data across 45 stores (6,435 records). The primary goal is to rigorously implement and interpret a wide range of statistical tests — validating assumptions before execution — to answer real business questions such as the impact of holidays, year-over-year performance, and macroeconomic factors on sales.
 
-## 📁 Project Structure
+## Project Structure
 
 | Folder | Description |
 |--------|-------------|
 | `data/` | Raw dataset (`Walmart_Sales.csv`) |
 | `notebooks/` | Analysis notebook |
 
-## 📌 Dataset Description
+## Dataset Description
 
 | Column | Description |
 |--------|-------------|
@@ -34,7 +34,7 @@ This project performs a comprehensive statistical evaluation of Walmart's weekly
 | `CPI` | Consumer Price Index |
 | `Unemployment` | Regional unemployment rate |
 
-## 🗂️ Statistical Tests Roadmap
+## Statistical Tests Roadmap
 
 1. **Z-Test:** One-sample & two-sample Z-tests for means
 2. **T-Test:** One-sample, independent (with Levene's test for equal variance), and paired T-tests
@@ -44,7 +44,7 @@ This project performs a comprehensive statistical evaluation of Walmart's weekly
 6. **A/B Testing:** Full statistical framework for business decision-making (power analysis, MDE, Welch's T-test)
 7. **Distribution & Normality Testing:** Skewness, kurtosis, and Kolmogorov-Smirnov test
 
-## 📑 Sections
+## Sections
 
 1. Data Loading & Initial Exploration
 2. Data Preprocessing & Feature Engineering
@@ -56,7 +56,7 @@ This project performs a comprehensive statistical evaluation of Walmart's weekly
 8. Business A/B Testing Framework
 9. Distribution Analysis & Normality Testing
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 Clone the repository and set up a virtual environment:
 
@@ -69,13 +69,13 @@ Clone the repository and set up a virtual environment:
 
     pip install -r requirements.txt
 
-## ▶️ Usage
+## Usage
 
 Launch Jupyter and open the notebook:
 
     jupyter notebook notebooks/walmart_statistical_analysis.ipynb
 
-## 🧰 Tools & Libraries
+## Tools & Libraries
 
 - Python 3.11
 - pandas, numpy
@@ -83,7 +83,7 @@ Launch Jupyter and open the notebook:
 - scipy
 - statsmodels
 
-## 📈 Key Findings
+## Key Findings
 
 - Weekly sales show a statistically significant difference between holiday and non-holiday weeks.
 - Sales distributions across stores are non-normal, motivating both parametric and non-parametric test comparisons.
