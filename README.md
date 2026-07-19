@@ -12,7 +12,7 @@
 
 ## Project Overview
 
-This project performs a comprehensive statistical evaluation of Walmart's weekly sales data across 45 stores (6,435 records). The primary goal is to rigorously implement and interpret a wide range of statistical tests — validating assumptions before execution — to answer real business questions such as the impact of holidays, year-over-year performance, and macroeconomic factors on sales.
+This project performs a comprehensive statistical evaluation of Walmart's weekly sales data across 45 stores (6,435 records). The primary goal is to rigorously implement and interpret a wide range of statistical tests, ensuring all assumptions are verified and results are properly contextualized.
 
 ## Project Structure
 
